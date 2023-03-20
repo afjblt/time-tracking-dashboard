@@ -9,7 +9,6 @@ type CardProps = {
 }
 
 export function Card({ backgroundColor, backgroundImage, title, current, previous }: CardProps) {
-    console.log(window.screen.width);
     return(
         <div className="row-span-1 bg-[length:3.3rem] bg-no-repeat rounded-lg mediaCard" style={{
             backgroundPositionX: window.screen.width <= 375 ? '16rem' : '7rem',
